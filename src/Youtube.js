@@ -293,7 +293,6 @@ THE SOFTWARE. */
     src: function(src) {
       if (src) {
         this.setSrc({ src: src });
-        this.play();
       }
 
       return this.source;
