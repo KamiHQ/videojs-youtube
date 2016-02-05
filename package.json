@@ -18,7 +18,7 @@
     "url": "https://github.com/eXon/videojs-youtube.git"
   },
   "peerDependencies": {
-    "video.js": "5.x"
+    "video.js": "^5.6.0"
   },
   "scripts": {
     "build": "mkdirp dist && cp src/Youtube.js dist/Youtube.js && uglifyjs src/Youtube.js -o dist/Youtube.min.js",
@@ -40,7 +40,7 @@
     "precommit-hook": "^3.0.0",
     "uglify-js": "^2.4.23"
   },
-  "dependencies": {
+  "peerDependencies": {
     "video.js": "^5.6.0"
   },
   "files": [
